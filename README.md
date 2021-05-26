@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+  When a function has to reach outside to find certain variables.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +67,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  Closure happens when your console.log has to go outside the function inorder to find out what the variable name is associated with.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  When you call dansRoll it will give you the number that he rolled.  The number that they get can change.
+
 c. What is the lexical scope of `newRoll`? 
+
+  console.log command.
 
 
 ### Task 3 - Stretch Goals
